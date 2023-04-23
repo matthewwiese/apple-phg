@@ -1,0 +1,10 @@
+user=postgres
+password=postgres
+DB=apple
+DBtype=postgres
+
+referenceFasta=/phg/inputDir/reference/GCF_002114115.1_ASM211411v1_genomic.fna
+anchors=/phg/refRanges.bed
+refServerPath=mattwie.se;/unused
+genomeData=/phg/inputDir/reference/load_genome_data.txt
+localGVCFFolder=/phg/local_gvcf

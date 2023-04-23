@@ -1,0 +1,10 @@
+type	sample_name	sample_description	mafFile	files	chrPhased	genePhased	phasingConf	gvcfServerPath
+GVCF	ASM411538v1	PublicNCBI	Unused	ASM411538v1.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	PFR_Mdom_1.0	PublicNCBI	Unused	PFR_Mdom_1.0.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	Malus_domestica_Gala.pri	PublicNCBI	Unused	Malus_domestica_Gala.pri.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	Malus_domestica_Gala.altA	PublicNCBI	Unused	Malus_domestica_Gala.altA.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	Malus_domestica_Gala.altB	PublicNCBI	Unused	Malus_domestica_Gala.altB.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	drMalDome10.2	PublicNCBI	Unused	drMalDome10.2.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	drMalDome11.2	PublicNCBI	Unused	drMalDome11.2.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	drMalDome58.3	PublicNCBI	Unused	drMalDome58.3.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused
+GVCF	drMalDome5.3	PublicNCBI	Unused	drMalDome5.3.gvcf.gz	TRUE	TRUE	0.9	mattwie.se;/unused

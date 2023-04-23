@@ -4,15 +4,15 @@ A [Practical Haplotype Graph](https://www.maizegenetics.net/phg) for apple. 🍎
 ## Running
 In the directory where you cloned this repository:
 ```
-./run.sh
+./setup.sh && ./run.sh
 ```
 
 ## Prerequisites/Dependencies
-TODO
+* [AnchorWave](https://github.com/baoxingsong/AnchorWave) `>= 1.2.1`
+* [minimap2](https://github.com/lh3/minimap2) `>= 2.24`
 
 ## Steps
 1. [Produce MAFs from the alignments of each founder assembly to the reference](./align/align.sh)
-  * Using [AnchorWave](https://github.com/baoxingsong/AnchorWave)
 2. [Generate GVCFs from Assembly MAFs](./gvcf/gvcf.sh)
 3. [Generate Wiggles from Assembly MAFs](./wiggle/wiggle.sh)
 

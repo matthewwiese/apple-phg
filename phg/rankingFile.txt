@@ -1,0 +1,10 @@
+ASM211411v1	10
+ASM411538v1	1
+PFR_Mdom_1.0	2
+Malus_domestica_Gala.pri	7
+Malus_domestica_Gala.altA	8
+Malus_domestica_Gala.altB	9
+drMalDome10.2	5
+drMalDome11.2	6
+drMalDome58.3	3
+drMalDome5.3	4
