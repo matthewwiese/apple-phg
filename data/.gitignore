@@ -1,0 +1,11 @@
+*.fa
+*.fa.gz
+*.fna
+*.fna.gz
+*.fasta
+*.fasta.gz
+*.gff
+*.gff.gz
+*.gff3
+*.gff3.gz
+*.zip
