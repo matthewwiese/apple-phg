@@ -1,8 +1,20 @@
 # Apple (*Malus domestica*) PHG
 A [Practical Haplotype Graph](https://www.maizegenetics.net/phg) for apple. 🍎
 
+## Running
+In the directory where you cloned this repository:
+```
+./run.sh
+```
+
+## Prerequisites/Dependencies
+TODO
+
 ## Steps
-1. Produce MAFs, using [AnchorWave](https://github.com/baoxingsong/AnchorWave), from the alignments of each founder assembly to the reference
+1. [Produce MAFs from the alignments of each founder assembly to the reference](./align/align.sh)
+  * Using [AnchorWave](https://github.com/baoxingsong/AnchorWave)
+2. [Generate GVCFs from Assembly MAFs](./gvcf/gvcf.sh)
+3. [Generate Wiggles from Assembly MAFs](./wiggle/wiggle.sh)
 
 ## Data
 ## Reference

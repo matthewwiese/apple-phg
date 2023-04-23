@@ -8,4 +8,14 @@
 *.gff.gz
 *.gff3
 *.gff3.gz
+*.sam
+*.bam
+*.maf
 *.zip
+
+data/*
+!data/.gitkeep
+
+*.log
+logs/*
+!logs/.gitkeep
