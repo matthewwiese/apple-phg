@@ -13,9 +13,6 @@
 *.maf
 *.zip
 
-data/*
-!data/.gitkeep
-
 *.log
 logs/*
 !logs/.gitkeep
