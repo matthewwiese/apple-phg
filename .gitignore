@@ -16,3 +16,5 @@
 *.log
 logs/*
 !logs/.gitkeep
+
+wiggle/wiggle_fromMAFmultiThread.main.kts

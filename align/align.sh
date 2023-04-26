@@ -13,7 +13,7 @@ minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
 # Assembly: ASM411538v1 (domestica)
 # TODO: R1 Q1? haploid ref - haploid query?
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_004115385.1/GCA_004115385.1_ASM411538v1_genomic.fna ref.sam > ASM411538v1.sam
+    ../data/GCA_004115385.1/GCA_004115385.1_ASM411538v1_genomic.fna ref_cds.fa > ASM411538v1.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -28,7 +28,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: PFR_Mdom_1.0 (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_022606005.1/GCA_022606005.1_PFR_Mdom_1.0_genomic.fna ref.sam > PFR_Mdom_1.0.sam
+    ../data/GCA_022606005.1/GCA_022606005.1_PFR_Mdom_1.0_genomic.fna ref_cds.fa > PFR_Mdom_1.0.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -43,7 +43,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_domestica_Gala.pri (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456005.1/GCA_028456005.1_Malus_domestica_Gala.pri_genomic.fna ref.sam > Malus_domestica_Gala.pri.sam
+    ../data/GCA_028456005.1/GCA_028456005.1_Malus_domestica_Gala.pri_genomic.fna ref_cds.fa > Malus_domestica_Gala.pri.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -58,7 +58,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_domestica_Gala.altA (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456015.1/GCA_028456015.1_Malus_domestica_Gala.altA_genomic.fna ref.sam > Malus_domestica_Gala.altA.sam
+    ../data/GCA_028456015.1/GCA_028456015.1_Malus_domestica_Gala.altA_genomic.fna ref_cds.fa > Malus_domestica_Gala.altA.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -73,7 +73,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_domestica_Gala.altB (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/data/GCA_028456065.1/GCA_028456065.1_Malus_domestica_Gala.altB_genomic.fna ref.sam > Malus_domestica_Gala.altB.sam
+    ../data/GCA_028456065.1/GCA_028456065.1_Malus_domestica_Gala.altB_genomic.fna ref_cds.fa > Malus_domestica_Gala.altB.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -88,7 +88,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: drMalDome10.2 (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/data/GCA_916050505.2/GCA_916050505.2_drMalDome10.2_genomic.fna ref.sam > drMalDome10.2.sam
+    ../data/GCA_916050505.2/GCA_916050505.2_drMalDome10.2_genomic.fna ref_cds.fa > drMalDome10.2.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -103,7 +103,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: drMalDome11.2 (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/data/GCA_916612005.2/GCA_916612005.2_drMalDome11.2_genomic.fna ref.sam > drMalDome11.2.sam
+    ../data/GCA_916612005.2/GCA_916612005.2_drMalDome11.2_genomic.fna ref_cds.fa > drMalDome11.2.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -118,7 +118,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: drMalDome58.3 (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_916615275.3/GCA_916615275.3_drMalDome58.3_genomic.fna ref.sam > drMalDome58.3.sam
+    ../data/GCA_916615275.3/GCA_916615275.3_drMalDome58.3_genomic.fna ref_cds.fa > drMalDome58.3.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -133,7 +133,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: drMalDome5.3 (domestica)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_916615385.2/GCA_916615385.2_drMalDome5.3_genomic.fna ref.sam > drMalDome5.3.sam
+    ../data/GCA_916615385.2/GCA_916615385.2_drMalDome5.3_genomic.fna ref_cds.fa > drMalDome5.3.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -148,7 +148,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: ASM2079583v1 (sieversii)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_020795835.1/GCA_020795835.1_ASM2079583v1_genomic.fna ref.sam > ASM2079583v1.sam
+    ../data/GCA_020795835.1/GCA_020795835.1_ASM2079583v1_genomic.fna ref_cds.fa > ASM2079583v1.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -163,7 +163,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_sieversii.pri (sieversii)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456125.1/GCA_028456125.1_Malus_sieversii.pri_genomic.fna ref.sam > Malus_sieversii.pri.sam
+    ../data/GCA_028456125.1/GCA_028456125.1_Malus_sieversii.pri_genomic.fna ref_cds.fa > Malus_sieversii.pri.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -178,7 +178,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_sieversii.altA (sieversii)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456135.1/GCA_028456135.1_Malus_sieversii.altA_genomic.fna ref.sam > Malus_sieversii.altA.sam
+    ../data/GCA_028456135.1/GCA_028456135.1_Malus_sieversii.altA_genomic.fna ref_cds.fa > Malus_sieversii.altA.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -193,7 +193,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_sieversii.altB (sieversii)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456155.1/GCA_028456155.1_Malus_sieversii.altB_genomic.fna ref.sam > Malus_sieversii.altB.sam
+    ../data/GCA_028456155.1/GCA_028456155.1_Malus_sieversii.altB_genomic.fna ref_cds.fa > Malus_sieversii.altB.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -208,7 +208,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: drMalSylv7.2 (sylvestris)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_916048215.2/GCA_916048215.2_drMalSylv7.2_genomic.fna ref.sam > drMalSylv7.2.sam
+    ../data/GCA_916048215.2/GCA_916048215.2_drMalSylv7.2_genomic.fna ref_cds.fa > drMalSylv7.2.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -223,7 +223,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: drMalSylv7.3 (sylvestris)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_916048215.3/GCA_916048215.3_drMalSylv7.3_genomic.fna ref.sam > drMalSylv7.3.sam
+    ../data/GCA_916048215.3/GCA_916048215.3_drMalSylv7.3_genomic.fna ref_cds.fa > drMalSylv7.3.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -238,7 +238,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_sylvestris.pri (sylvestris)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456055.1/GCA_028456055.1_Malus_sylvestris.pri_genomic.fna ref.sam > Malus_sylvestris.pri.sam
+    ../data/GCA_028456055.1/GCA_028456055.1_Malus_sylvestris.pri_genomic.fna ref_cds.fa > Malus_sylvestris.pri.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -253,7 +253,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_sylvestris.altA (sylvestris)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456085.1/GCA_028456085.1_Malus_sylvestris.altA_genomic.fna ref.sam > Malus_sylvestris.altA.sam
+    ../data/GCA_028456085.1/GCA_028456085.1_Malus_sylvestris.altA_genomic.fna ref_cds.fa > Malus_sylvestris.altA.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
@@ -268,7 +268,7 @@ anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
 
 # Assembly: Malus_sylvestris.altB (sylvestris)
 minimap2 -x splice -t 40 -k 12 -a -p 0.4 -N 20 \
-    ../data/GCA_028456105.1/GCA_028456105.1_Malus_sylvestris.altB_genomic.fna ref.sam > Malus_sylvestris.altB.sam
+    ../data/GCA_028456105.1/GCA_028456105.1_Malus_sylvestris.altB_genomic.fna ref_cds.fa > Malus_sylvestris.altB.sam
 anchorwave proali -i ../data/GCF_002114115.1/genomic.gff \
     -as ref_cds.fa \
     -r ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
