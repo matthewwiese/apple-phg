@@ -8,7 +8,6 @@ do
         -wiggleContig $contig_name \
         -start 1 -end $end_pos \
         -outputDir $PWD
-    echo $end_pos
 done < malus_fasize.txt
 
 rm $PWD/identity_*.wig
