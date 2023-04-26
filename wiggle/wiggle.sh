@@ -11,3 +11,5 @@ do
 done < malus_fasize.txt
 
 rm $PWD/identity_*.wig
+rm $PWD/coverage_NW_*.wig
+rm $PWD/coverage_NC_*.wig
