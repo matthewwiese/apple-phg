@@ -7,6 +7,9 @@ In the directory where you cloned this repository:
 ./setup.sh && ./run.sh
 ```
 
+## Notes
+* After downloading reference and assemblies from NCBI and extracting them, run the [`rename-chromosomes.sh`](./data/rename-chromosomes.sh) script within the `data/` directory to rename chromosomes to be consistent across all FASTA files so that AnchorWave is able to find anchors
+
 ## Prerequisites/Dependencies
 * [AnchorWave](https://github.com/baoxingsong/AnchorWave) `>= 1.2.1`
 * [minimap2](https://github.com/lh3/minimap2) `>= 2.24`
