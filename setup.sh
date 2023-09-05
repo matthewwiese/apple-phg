@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+./scripts/download-data.sh
+
+./scripts/rename-chromosomes.sh
+
 mkdir -p phg
 docker run --name create_phg_dir --rm \
     -v $PWD/phg/:/phg/ \
