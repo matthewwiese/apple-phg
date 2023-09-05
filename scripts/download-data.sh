@@ -4,8 +4,8 @@
 #       Requests with curl/wget to these urls sometimes
 #       inexplicably return a 200 at random points in the file.
 #       Can't SHA-256 it because the actual zip file downloaded
-#       appears to be different each time (i.e. different hashes)
-#       but the files in it are the same.
+#       appears to be different each time, yet the files in it
+#       are the same (i.e. any complete, incorrupt zip will hash differently).
 
 cd data
 
