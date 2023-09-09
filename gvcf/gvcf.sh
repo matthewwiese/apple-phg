@@ -12,7 +12,7 @@ do
         -t maizegenetics/phg:1.4 \
         /tassel-5-standalone/run_pipeline.pl -Xms256g -Xmx256g -debug \
         -MAFToGVCFPlugin \
-            -referenceFasta /phg/data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna \
+            -referenceFasta /phg/data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
             -mafFile /phg/align/$name_with_ext \
             -sampleName $name \
             -gvcfOutput /phg/gvcf/$gvcf \
