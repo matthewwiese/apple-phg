@@ -272,23 +272,23 @@ sed -i 's/>CM052005.1/>16/g' assemblies/GCA_028456155.1_Malus_sieversii.altB_gen
 sed -i 's/>CM052006.1/>17/g' assemblies/GCA_028456155.1_Malus_sieversii.altB_genomic.fna
 
 # drMalSylv7.2 (sylvestris)
-sed -i 's/>OU696503.1/>1/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696504.1/>2/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696505.1/>3/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696506.1/>4/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696507.1/>5/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696508.1/>6/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696509.1/>7/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696510.1/>8/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696511.1/>9/g'  assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696512.1/>10/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696513.1/>11/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696514.1/>12/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696515.1/>13/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696516.1/>14/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696517.1/>15/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696518.1/>16/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
-sed -i 's/>OU696519.1/>17/g' assemblies/GCA_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696503.1/>1/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696504.1/>2/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696505.1/>3/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696506.1/>4/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696507.1/>5/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696508.1/>6/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696509.1/>7/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696510.1/>8/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696511.1/>9/g'  assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696512.1/>10/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696513.1/>11/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696514.1/>12/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696515.1/>13/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696516.1/>14/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696517.1/>15/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696518.1/>16/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
+sed -i 's/>OU696519.1/>17/g' assemblies/GCF_916048215.2_drMalSylv7.2_genomic.fna
 
 # drMalSylv7.3 (sylvestris)
 sed -i 's/>OU696503.1/>1/g'  assemblies/GCA_916048215.3_drMalSylv7.3_genomic.fna
