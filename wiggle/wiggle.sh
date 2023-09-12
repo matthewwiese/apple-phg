@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-faSize -detailed ../data/GCF_002114115.1/GCF_002114115.1_ASM211411v1_genomic.fna > mesculenta_fasize.txt
+faSize -detailed ../data/reference/GCF_002114115.1_ASM211411v1_genomic.fna > malus_fasize.txt
+grep "^[0-9]" malus_fasize.txt > malus_fasize_chroms.txt
 
 while read contig_name end_pos
 do
@@ -10,8 +11,4 @@ do
         -wiggleContig $contig_name \
         -start 1 -end $end_pos \
         -outputDir $PWD
-done < malus_fasize.txt
-
-rm $PWD/identity_*.wig
-rm $PWD/coverage_NW_*.wig
-rm $PWD/coverage_NC_*.wig
+done < malus_fasize_chroms.txt
