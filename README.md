@@ -8,28 +8,23 @@ In the directory where you cloned this repository:
 1. `./setup.sh`
 2. `./run.sh`
 
-## Prerequisites/Dependencies
-* [PHG](https://bitbucket.org/bucklerlab/practicalhaplotypegraph) `>= 1.6`
-    * `conda install -c maize-genetics phg`
-* [AnchorWave](https://github.com/baoxingsong/AnchorWave) `>= 1.2.1`
-    * `conda install -c bioconda anchorwave`
-* [minimap2](https://github.com/lh3/minimap2) `>= 2.24`
-    * `conda install -c bioconda minimap2`
-* [NCBI Datasets](https://github.com/ncbi/datasets) `>= 15.18.0`
-    * `conda install -c conda-forge ncbi-datasets-cli`
+Dependencies are listed in this repository's [Conda environment](./environment.yml) and are automatically installed as part of [the setup process](./setup.sh).
 
-## Steps
+*TODO*: Include Kotlin or remove/rewrite Wiggle script.
+
+### Steps
 1. [Produce MAFs from the alignments of each founder assembly to the reference](./align/align.sh)
 2. [Generate GVCFs from Assembly MAFs](./gvcf/gvcf.sh)
 3. [Generate Wiggles from Assembly MAFs](./wiggle/wiggle.sh)
+4. [Generate reference ranges](./ref_ranges.sh)
 
 ## Data
-## Reference
+### Reference
 * **Name:** [ASM211411v1](https://www.ncbi.nlm.nih.gov/data-hub/genome/GCF_002114115.1/)
 * **FASTA:** `data/reference/GCF_002114115.1_ASM211411v1_genomic.fna`
 * **GFF:** `data/reference/genomic.gff`
 
-## Founder Assemblies
+### Founder Assemblies
 | Name | Date | Species | Source Database | Assembly Level | Assembly Method | Genome Size | Genome Coverage | Sequencing Technology | File |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ASM411538v1](https://www.ncbi.nlm.nih.gov/data-hub/genome/GCA_004115385.1/) | Jan 29, 2019 | *M. domestica* | GenBank | Chromosome | FALCON v. 0.4 | 660.5 Mb | 100.0x | PacBio RSII | `data/assemblies/GCA_004115385.1_ASM411538v1_genomic.fna` |

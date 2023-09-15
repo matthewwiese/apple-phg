@@ -16,4 +16,4 @@ cd wiggle
 cd -
 
 # Step 4 - Generate reference ranges
-./ref_ranges.sh | tee ../logs/ref_ranges.log
+./ref_ranges.sh | tee ./logs/ref_ranges.log
