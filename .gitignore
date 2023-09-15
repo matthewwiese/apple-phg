@@ -19,6 +19,9 @@ align/anchors_*
 *.gvcf.header
 *.gvcf.noheader
 *.gvcf.noheader.sorted
+*.gvcf.gz
+*.gvcf.gz.tbi
+*.jar
 
 *.log
 logs/*

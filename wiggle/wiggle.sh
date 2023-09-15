@@ -12,3 +12,6 @@ do
         -start 1 -end $end_pos \
         -outputDir $PWD
 done < malus_fasize_chroms.txt
+
+mkdir -p coverage
+mv coverage_*.wig coverage
