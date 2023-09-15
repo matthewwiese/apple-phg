@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Rename chromosomes to be consistent between reference and queries
-#     so that AnchorWave will be able to construct anchors
 
 cd data
 
