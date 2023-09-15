@@ -14,4 +14,5 @@ do
 done < malus_fasize_chroms.txt
 
 mkdir -p coverage
+rm identity_*.wig
 mv coverage_*.wig coverage
