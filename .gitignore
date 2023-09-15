@@ -11,7 +11,14 @@
 *.sam
 *.bam
 *.maf
+*.f_maf
+align/anchors_*
 *.zip
+*.wig
+*.gvcf
+*.gvcf.header
+*.gvcf.noheader
+*.gvcf.noheader.sorted
 
 *.log
 logs/*

@@ -3,8 +3,8 @@ password=postgres
 DB=apple
 DBtype=postgres
 
-referenceFasta=/phg/data/reference/GCF_002114115.1_ASM211411v1_genomic.fna
-anchors=/phg/refRanges.bed
+referenceFasta=./data/reference/GCF_002114115.1_ASM211411v1_genomic.fna
+anchors=./refRanges.bed
 refServerPath=mattwie.se;/unused
-genomeData=/phg/load_genome_data.txt
-localGVCFFolder=/phg/gvcf
+genomeData=./load_genome_data.txt
+localGVCFFolder=./gvcf

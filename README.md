@@ -1,14 +1,20 @@
 # Apple (*Malus domestica*) PHG
 A [Practical Haplotype Graph](https://www.maizegenetics.net/phg) for apple. 🍎
 
+🚧 **A work in progress!** 🚧
+
 ## Running
 In the directory where you cloned this repository:
 1. `./setup.sh`
 2. `./run.sh`
 
 ## Prerequisites/Dependencies
+* [PHG](https://bitbucket.org/bucklerlab/practicalhaplotypegraph) `>= 1.6`
+    * `conda install -c maize-genetics phg`
 * [AnchorWave](https://github.com/baoxingsong/AnchorWave) `>= 1.2.1`
+    * `conda install -c bioconda anchorwave`
 * [minimap2](https://github.com/lh3/minimap2) `>= 2.24`
+    * `conda install -c bioconda minimap2`
 
 ## Steps
 1. [Produce MAFs from the alignments of each founder assembly to the reference](./align/align.sh)
