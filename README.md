@@ -15,6 +15,8 @@ In the directory where you cloned this repository:
     * `conda install -c bioconda anchorwave`
 * [minimap2](https://github.com/lh3/minimap2) `>= 2.24`
     * `conda install -c bioconda minimap2`
+* [NCBI Datasets](https://github.com/ncbi/datasets) `>= 15.18.0`
+    * `conda install -c conda-forge ncbi-datasets-cli`
 
 ## Steps
 1. [Produce MAFs from the alignments of each founder assembly to the reference](./align/align.sh)
