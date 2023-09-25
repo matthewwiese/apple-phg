@@ -11,7 +11,7 @@ do
             -referenceFasta ../data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
             -mafFile ../align/$name_with_ext \
             -sampleName $name \
-            -gvcfOutput ./gvcf/$gvcf \
+            -gvcfOutput $gvcf \
             -fillGaps false -twoGvcfs false \
             -bgzipAndIndex false \
         -endPlugin
