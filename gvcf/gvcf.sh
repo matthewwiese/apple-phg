@@ -8,8 +8,8 @@ do
     # -twoGvcfs=false because we are using haploid assemblies
     phg run -Xms256g -Xmx256g -debug \
         -MAFToGVCFPlugin \
-            -referenceFasta ./data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
-            -mafFile ./align/$name_with_ext \
+            -referenceFasta ../data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
+            -mafFile ../align/$name_with_ext \
             -sampleName $name \
             -gvcfOutput ./gvcf/$gvcf \
             -fillGaps false -twoGvcfs false \
