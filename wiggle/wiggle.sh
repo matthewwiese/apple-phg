@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 faSize -detailed ../data/reference/GCF_002114115.1_ASM211411v1_genomic.fna > malus_fasize.txt
-grep "^[0-9]" malus_fasize.txt > malus_fasize_chroms.txt
+grep "^chr[0-9]" malus_fasize.txt > malus_fasize_chroms.txt
 
 while read contig_name end_pos
 do
