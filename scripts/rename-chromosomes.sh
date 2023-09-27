@@ -4,7 +4,7 @@
 
 cd data
 
-# ASM211411v1 (reference/domestica)
+# ASM211411v1 (domestica) - Reference FASTA
 sed -i 's/>NC_041789\.1.*/>chr1/g'  reference/GCF_002114115.1_ASM211411v1_genomic.fna
 sed -i 's/>NC_041790\.1.*/>chr2/g'  reference/GCF_002114115.1_ASM211411v1_genomic.fna
 sed -i 's/>NC_041791\.1.*/>chr3/g'  reference/GCF_002114115.1_ASM211411v1_genomic.fna
@@ -22,6 +22,25 @@ sed -i 's/>NC_041802\.1.*/>chr14/g' reference/GCF_002114115.1_ASM211411v1_genomi
 sed -i 's/>NC_041803\.1.*/>chr15/g' reference/GCF_002114115.1_ASM211411v1_genomic.fna
 sed -i 's/>NC_041804\.1.*/>chr16/g' reference/GCF_002114115.1_ASM211411v1_genomic.fna
 sed -i 's/>NC_041805\.1.*/>chr17/g' reference/GCF_002114115.1_ASM211411v1_genomic.fna
+
+# ASM211411v1 (domestica) - Reference GFF
+sed -i 's/^NC_041789\.1/chr1/g'  reference/genomic.gff
+sed -i 's/^NC_041790\.1/chr2/g'  reference/genomic.gff
+sed -i 's/^NC_041791\.1/chr3/g'  reference/genomic.gff
+sed -i 's/^NC_041792\.1/chr4/g'  reference/genomic.gff
+sed -i 's/^NC_041793\.1/chr5/g'  reference/genomic.gff
+sed -i 's/^NC_041794\.1/chr6/g'  reference/genomic.gff
+sed -i 's/^NC_041795\.1/chr7/g'  reference/genomic.gff
+sed -i 's/^NC_041796\.1/chr8/g'  reference/genomic.gff
+sed -i 's/^NC_041797\.1/chr9/g'  reference/genomic.gff
+sed -i 's/^NC_041798\.1/chr10/g' reference/genomic.gff
+sed -i 's/^NC_041799\.1/chr11/g' reference/genomic.gff
+sed -i 's/^NC_041800\.1/chr12/g' reference/genomic.gff
+sed -i 's/^NC_041801\.1/chr13/g' reference/genomic.gff
+sed -i 's/^NC_041802\.1/chr14/g' reference/genomic.gff
+sed -i 's/^NC_041803\.1/chr15/g' reference/genomic.gff
+sed -i 's/^NC_041804\.1/chr16/g' reference/genomic.gff
+sed -i 's/^NC_041805\.1/chr17/g' reference/genomic.gff
 
 # ASM411538v1 (domestica)
 sed -i 's/>CM014049\.1.*/>chr1/g'  assemblies/GCA_004115385.1_ASM411538v1_genomic.fna
