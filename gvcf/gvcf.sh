@@ -28,3 +28,7 @@ do
     bgzip -c "sorted_${gvcf}" > "${gvcf}.gz"
     tabix -f "${gvcf}.gz"
 done
+
+mkdir -p input
+mv *.gvcf.gz.tbi input
+mv *.gvcf.gz input
