@@ -14,7 +14,7 @@ phg run -Xms256g -Xmx256g -debug \
         -minCover 7 \
         -outputBedFile ./refRanges.bed \
         -refGenome ./data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
-        -vcfdir ./gvcf \
+        -vcfdir ./gvcf/input \
         -outputGeneRanges ./geneRanges.bed \
         -nThreads $NUM_THREADS \
     -endPlugin
