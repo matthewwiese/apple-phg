@@ -1,3 +1,4 @@
+host=localhost:12345
 user=postgres
 password=postgres
 DB=apple
@@ -7,4 +8,16 @@ referenceFasta=./data/reference/GCF_002114115.1_ASM211411v1_genomic.fna
 anchors=./refRanges.bed
 refServerPath=mattwie.se;/unused
 genomeData=./load_genome_data.txt
-localGVCFFolder=./gvcf
+localGVCFFolder=./gvcf/input
+
+LoadHaplotypesFromGVCFPlugin.referenceFasta=./data/reference/GCF_002114115.1_ASM211411v1_genomic.fna
+LoadHaplotypesFromGVCFPlugin.gvcfDir=./gvcf/input
+LoadHaplotypesFromGVCFPlugin.wgsKeyFile=./gvcfKeyFile.txt
+LoadHaplotypesFromGVCFPlugin.bedFile=./refRanges.bed
+LoadHaplotypesFromGVCFPlugin.haplotypeMethodName=Apple1
+
+BestHaplotypePathPlugin.pathMethod=Apple1_PATH
+
+outVcfFile=./imputation-results.vcf
+
+BestHaplotypePathPlugin.minTaxa=10

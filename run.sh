@@ -17,3 +17,6 @@ cd -
 
 # Step 4 - Generate reference ranges
 ./ref_ranges.sh | tee ./logs/ref_ranges.log
+
+# Step 5 - Initialize PHG Database and Load Haplotypes
+./load_haps.sh | tee ./logs/load_haps.log

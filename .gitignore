@@ -26,3 +26,5 @@ align/anchors_*
 *.log
 logs/*
 !logs/.gitkeep
+
+postgres-data/
