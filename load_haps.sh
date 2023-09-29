@@ -11,7 +11,7 @@ docker run --name postgres-apple-phg \
     -e POSTGRES_USER=postgres \
     -e POSTGRES_PASSWORD=postgres \
     -e POSTGRES_DB=apple \
-    -v ./postgres-data/:/var/lib/postgresql/data \
+    -v $PWD/postgres-data/:/var/lib/postgresql/data \
     -p 12345:5432 \
     -d postgres:11-bullseye \
     -c password_encryption=md5
