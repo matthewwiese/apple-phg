@@ -16,6 +16,10 @@ docker run --name postgres-apple-phg \
     -d postgres:11-bullseye \
     -c password_encryption=md5
 
+# LoadAllIntervalsToPHGdbPlugin, run during MakeInitialPHGDBPipelinePlugin, requires this
+# It will create outputDir/run_yes.txt
+mkdir -p outputDir
+
 # Initialize Database
 phg run $JAVA_XMS $JAVA_XMX -debug \
     -configParameters ./config.txt \

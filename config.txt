@@ -21,3 +21,5 @@ BestHaplotypePathPlugin.pathMethod=Apple1_PATH
 outVcfFile=./imputation-results.vcf
 
 BestHaplotypePathPlugin.minTaxa=10
+
+outputDir=./outputDir
