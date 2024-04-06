@@ -40,18 +40,18 @@ phg agc-compress                                                            \
 
 mkdir -p data/vcf
 # Create HVCF data from ref
-phg create-ref-vcf                                                           \
-    --db-path tiledb                                                         \
-    --bed apple.bed                                                          \
-    --reference-file /data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
+phg create-ref-vcf                                                          \
+    --db-path tiledb                                                        \
+    --bed apple.bed                                                         \
+    --reference-file data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
     --reference-name DomesticaGoldenDelicious
 
 # Create HVCF and GVCF data from assembly alignments against ref
-phg create-maf-vcf                                                           \
-    --db-path tiledb                                                         \
-    --bed apple.bed                                                          \
-    --reference-file /data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
-    --maf-dir data/align                                                     \
+phg create-maf-vcf                                                          \
+    --db-path tiledb                                                        \
+    --bed apple.bed                                                         \
+    --reference-file data/reference/GCF_002114115.1_ASM211411v1_genomic.fna \
+    --maf-dir data/align                                                    \
     -o data/vcf
 
 # Load VCFs into TileDB
