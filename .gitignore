@@ -29,3 +29,9 @@ logs/*
 
 postgres-data/
 outputDir/
+
+tiledb/*
+!tiledb/.gitkeep
+
+data/*
+!data/.gitkeep

@@ -1,8 +1,18 @@
-name: apple-phg
+name: phgv2-conda
 channels:
-  - maize-genetics
-  - bioconda
   - conda-forge
+  - bioconda
+  - tiledb
   - nodefaults
 dependencies:
   - ncbi-datasets-cli =16.10.2
+  - openjdk >=17.0.10
+
+  # https://github.com/maize-genetics/phg_v2/blob/main/src/main/resources/phg_environment.yml
+  - python=3.8
+  - tiledb-py=0.22
+  - tiledbvcf-py=0.25
+  - anchorwave=1.2.2
+  - bcftools
+  - samtools
+  - agc

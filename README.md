@@ -5,7 +5,8 @@ A [Practical Haplotype Graph](https://www.maizegenetics.net/phg) for apple. 🍎
 
 ## Running
 In the directory where you cloned this repository:
-1. Create and activate the Conda environment: `conda env create -f environment.yml && conda activate apple-phg`
+1. Create and activate the Conda environment: `conda env create -f environment.yml && conda activate phgv2-conda`
+	* PHG v2 does not yet have a Conda package, so follow [these instructions](https://github.com/maize-genetics/phg_v2/blob/main/docs/installation.md#quick-start) to install it; Java 17+ is required, which is installed via the `openjdk` package.
 2. Download the data from NCBI: `./download.sh`
 3. Build the PHG: `./build.sh`
 
