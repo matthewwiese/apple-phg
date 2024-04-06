@@ -5,18 +5,9 @@ A [Practical Haplotype Graph](https://www.maizegenetics.net/phg) for apple. 🍎
 
 ## Running
 In the directory where you cloned this repository:
-1. `./setup.sh`
-2. `./run.sh`
-
-Dependencies are listed in this repository's [Conda environment](./environment.yml) and are automatically installed as part of [the setup process](./setup.sh).
-
-*TODO*: Include Kotlin or remove/rewrite Wiggle script.
-
-### Steps
-1. [Produce MAFs from the alignments of each founder assembly to the reference](./align/align.sh)
-2. [Generate GVCFs from Assembly MAFs](./gvcf/gvcf.sh)
-3. [Generate Wiggles from Assembly MAFs](./wiggle/wiggle.sh)
-4. [Generate reference ranges](./ref_ranges.sh)
+1. Create and activate the Conda environment: `conda env create -f environment.yml && conda activate apple-phg`
+2. Download the data from NCBI: `./download.sh`
+3. Build the PHG: `./build.sh`
 
 ## Data
 ### Reference

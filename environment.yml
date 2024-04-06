@@ -5,11 +5,4 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - phg =1.6
-  - anchorwave =1.2.1
-  - minimap2 =2.26
-  - ucsc-fasize =377
-  - tabix =1.11
-  - htslib =1.18 # For bgzip
-  - ncbi-datasets-cli =15.19.0
-  
+  - ncbi-datasets-cli =16.10.2
