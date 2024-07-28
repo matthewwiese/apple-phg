@@ -1,5 +1,5 @@
 # Apple (*Malus domestica*) PHG
-A [Practical Haplotype Graph](https://www.maizegenetics.net/phg) for apple. 🍎
+A [Practical Haplotype Graph](https://www.maizegenetics.net/phg) for apple - read more about this project [on the website](https://haplotype.net/apple-phg). 🍎
 
 🚧 **A work in progress!** 🚧
 
